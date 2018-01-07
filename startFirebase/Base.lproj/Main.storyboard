@@ -30,7 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="追加"/>
                                 <connections>
-                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IQX-rN-NNe"/>
+                                    <action selector="add" destination="BYZ-38-t0r" eventType="touchUpInside" id="dQV-Cq-cWC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -38,7 +38,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="TextField" destination="UJh-Sx-kbS" id="blP-Uw-hWc"/>
+                        <outlet property="TextField" destination="UJh-Sx-kbS" id="U1Y-PN-3MV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

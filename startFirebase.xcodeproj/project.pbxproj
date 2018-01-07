@@ -17,9 +17,7 @@
 		60DD0C742001B65F0070D9BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60DD0C732001B65F0070D9BC /* GoogleService-Info.plist */; };
 		60DD0C752001B65F0070D9BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60DD0C732001B65F0070D9BC /* GoogleService-Info.plist */; };
 		60DD0C762001B65F0070D9BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60DD0C732001B65F0070D9BC /* GoogleService-Info.plist */; };
-		60DDB7A02001B95400C244F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60DDB79F2001B95400C244F4 /* GoogleService-Info.plist */; };
-		60DDB7A12001B95400C244F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60DDB79F2001B95400C244F4 /* GoogleService-Info.plist */; };
-		60DDB7A22001B95400C244F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60DDB79F2001B95400C244F4 /* GoogleService-Info.plist */; };
+		60DDB7A42001F81B00C244F4 /* GoogleService-Info (5).plist in Resources */ = {isa = PBXBuildFile; fileRef = 60DDB7A32001F81B00C244F4 /* GoogleService-Info (5).plist */; };
 		7B1A4D370D187581CE204BB3 /* Pods_startFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CD86A769D8106D17EF816A /* Pods_startFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +54,7 @@
 		60DD0C652001B5CC0070D9BC /* startFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startFirebaseUITests.swift; sourceTree = "<group>"; };
 		60DD0C672001B5CC0070D9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60DD0C732001B65F0070D9BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		60DDB79F2001B95400C244F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60DDB7A32001F81B00C244F4 /* GoogleService-Info (5).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (5).plist"; path = "../../../Downloads/GoogleService-Info (5).plist"; sourceTree = "<group>"; };
 		784EC7A7D45837F988CC954A /* Pods-startFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-startFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-startFirebase/Pods-startFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		D5CD86A769D8106D17EF816A /* Pods_startFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_startFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -118,7 +116,7 @@
 				60DD0C4C2001B5CC0070D9BC /* Assets.xcassets */,
 				60DD0C4E2001B5CC0070D9BC /* LaunchScreen.storyboard */,
 				60DD0C512001B5CC0070D9BC /* Info.plist */,
-				60DDB79F2001B95400C244F4 /* GoogleService-Info.plist */,
+				60DDB7A32001F81B00C244F4 /* GoogleService-Info (5).plist */,
 			);
 			path = startFirebase;
 			sourceTree = "<group>";
@@ -269,9 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DDB7A42001F81B00C244F4 /* GoogleService-Info (5).plist in Resources */,
 				60DD0C502001B5CC0070D9BC /* LaunchScreen.storyboard in Resources */,
 				60DD0C742001B65F0070D9BC /* GoogleService-Info.plist in Resources */,
-				60DDB7A02001B95400C244F4 /* GoogleService-Info.plist in Resources */,
 				60DD0C4D2001B5CC0070D9BC /* Assets.xcassets in Resources */,
 				60DD0C4B2001B5CC0070D9BC /* Main.storyboard in Resources */,
 			);
@@ -282,7 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60DD0C752001B65F0070D9BC /* GoogleService-Info.plist in Resources */,
-				60DDB7A12001B95400C244F4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +288,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60DD0C762001B65F0070D9BC /* GoogleService-Info.plist in Resources */,
-				60DDB7A22001B95400C244F4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

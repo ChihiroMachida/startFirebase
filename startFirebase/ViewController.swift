@@ -11,20 +11,19 @@ import Firebase
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var TextField: UITextField!
+    @IBOutlet var TextField: UITextField!
     
     //インスタンス変数
     var DBRef: DatabaseReference!
     
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         
         //インスタンス生成
         DBRef = Database.database().reference()
     }
     
-    @IBAction func add(_ sender: AnyObject) {
+    @IBAction func add() {
         
         let data = ["name": TextField.text!]
         DBRef.child("user/01").setValue(data)
