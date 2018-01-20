@@ -23,13 +23,21 @@ class ViewController: UIViewController {
         DBRef = Database.database().reference()
     }
     
-    @IBAction func add() {
-        
+    @IBAction func add(_ sender: AnyObject) { //追加
         let data = ["name": TextField.text!]
         DBRef.child("user/01").setValue(data)
     }
-    
 
+    @IBAction func update(_ sender: AnyObject) { //更新
+        
+        let data = ["name": TextField.text!]
+        DBRef.child("user/01").updateChildValues(data)
+    }
+    
+    @IBAction func remove(_ sender: AnyObject) { //削除
+        
+       DBRef.child("user/01/name").removeValue()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
